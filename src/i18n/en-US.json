@@ -1,0 +1,144 @@
+{
+  "app": {
+    "title": "Quick Share",
+    "theme": {
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "footer": "© 2026 Mrkinte"
+  },
+  "fileTypes": {
+    "document": "document",
+    "image": "image",
+    "video": "video",
+    "unknow": "unknow"
+  },
+  "common": {
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "save": "Save",
+    "back": "Back",
+    "close": "Close",
+    "loading": "Loading...",
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Info"
+  },
+  "login": {
+    "title": "Local Area Network File Transfer Tool",
+    "subtitle": "Fast and secure local network file sharing solution",
+    "formTitle": "System Login",
+    "formSubtitle": "Please enter the access password to enter the system",
+    "passwordPlaceholder": "Please enter access password",
+    "loginButton": "Enter System",
+    "verifying": "Verifying...",
+    "connectionStatus": "Connected to local area network",
+    "securityInfo": "Data is transmitted only within the local network",
+    "error": {
+      "wrongPassword": "Incorrect password"
+    }
+  },
+  "share": {
+    "title": "File Sharing",
+    "verifyCodePlaceholder": "Please enter verification code",
+    "verifyButton": "Confirm",
+    "shareInfo": "Share Information",
+    "description": "Description",
+    "fileCount": "Total Files",
+    "createTime": "Creation Time",
+    "totalSize": "Total Size",
+    "expiredMessage": "Share link has expired 😟",
+    "fileList": "File List",
+    "searchPlaceholder": "Search files...",
+    "sortPlaceholder": "Sort by",
+    "sortByName": "By Name",
+    "sortBySize": "By Size",
+    "sortByDownload": "By Downloads",
+    "selectedFiles": "Selected {count} file(s)",
+    "batchDownload": "Batch Download",
+    "table": {
+      "fileName": "File Name",
+      "size": "Size",
+      "downloadCount": "Downloads",
+      "actions": "Actions"
+    },
+    "actions": {
+      "preview": "Preview",
+      "download": "Download"
+    },
+    "mobileMeta": "• Downloaded {count} time(s)",
+    "errors": {
+      "invalidCode": "Invalid verification code, please try again"
+    }
+  },
+  "transmit": {
+    "upload": {
+      "title": "Upload Files",
+      "dragText": "Drag files here, or",
+      "clickUpload": "click to upload",
+      "tip": "Batch upload supported, total files not exceeding {size}.",
+      "progressTitle": "Upload Progress",
+      "selectedInfo": "Selected {count} file(s), total {size}",
+      "clearList": "Clear List",
+      "startUpload": "Start Upload",
+      "errors": {
+        "fileSizeExceeded": "File size cannot exceed {size} MB!",
+        "duplicateFile": "File \"{name}\" is already in the upload list",
+        "totalSizeExceeded": "Total file size cannot exceed {size} MB!",
+        "uploadFailed": "File upload failed: {message}",
+        "gettingParamsFailed": "Failed to get upload parameters: {message}",
+        "networkError": "Failed to get upload parameters: Network error or no server response",
+        "uploading": "File is uploading, please do not resubmit!"
+      },
+      "success": "Successfully uploaded {count} file(s)"
+    },
+    "fileList": {
+      "title": "File List",
+      "searchPlaceholder": "Search files...",
+      "sortPlaceholder": "Sort by",
+      "sortByName": "By Name",
+      "sortBySize": "By Size",
+      "sortByTime": "By Time",
+      "breadcrumbs": {
+        "root": "Root Directory"
+      },
+      "selectedFiles": "Selected {count} file(s)",
+      "batchDownload": "Batch Download",
+      "table": {
+        "fileName": "File Name",
+        "size": "Size",
+        "type": "Type",
+        "createTime": "Creation Time",
+        "actions": "Actions"
+      },
+      "types": {
+        "folder": "Folder",
+        "parentDirectory": "Parent Directory"
+      },
+      "actions": {
+        "preview": "Preview",
+        "download": "Download"
+      },
+      "empty": "No files available",
+      "navigation": {
+        "backToParent": "Back to Parent Directory"
+      },
+      "errors": {
+        "getFileListFailed": "Failed to get file list: {message}"
+      }
+    },
+    "preview": {
+      "unsupported": "Preview for this file type is not supported",
+      "videoNotSupported": "Your browser does not support video playback"
+    }
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Page not found",
+    "description": "The page you are looking for does not exist or has been moved.",
+    "backHome": "Back to Home"
+  }
+}

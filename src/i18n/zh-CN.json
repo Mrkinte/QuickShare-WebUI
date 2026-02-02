@@ -1,0 +1,144 @@
+{
+  "app": {
+    "title": "Quick Share",
+    "theme": {
+      "light": "浅色",
+      "dark": "深色"
+    },
+    "footer": "© 2026 Mrkinte"
+  },
+  "fileTypes": {
+    "document": "文档",
+    "image": "图片",
+    "video": "视频",
+    "unknow": "未知"
+  },
+  "common": {
+    "confirm": "确认",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "save": "保存",
+    "back": "返回",
+    "close": "关闭",
+    "loading": "加载中...",
+    "success": "成功",
+    "error": "错误",
+    "warning": "警告",
+    "info": "提示"
+  },
+  "login": {
+    "title": "局域网文件传输工具",
+    "subtitle": "快速、安全的局域网文件共享解决方案",
+    "formTitle": "系统登录",
+    "formSubtitle": "请输入访问密码进入系统",
+    "passwordPlaceholder": "请输入访问密码",
+    "loginButton": "进入系统",
+    "verifying": "验证中...",
+    "connectionStatus": "已连接到局域网",
+    "securityInfo": "数据仅在本地网络传输",
+    "error": {
+      "wrongPassword": "密码错误"
+    }
+  },
+  "share": {
+    "title": "文件分享",
+    "verifyCodePlaceholder": "请输入验证码",
+    "verifyButton": "确认",
+    "shareInfo": "分享信息",
+    "description": "描述",
+    "fileCount": "文件总数",
+    "createTime": "创建时间",
+    "totalSize": "文件总大小",
+    "expiredMessage": "分享链接已失效😟",
+    "fileList": "文件列表",
+    "searchPlaceholder": "搜索文件...",
+    "sortPlaceholder": "排序方式",
+    "sortByName": "按名称",
+    "sortBySize": "按大小",
+    "sortByDownload": "按下载次数",
+    "selectedFiles": "共选择 {count} 个文件",
+    "batchDownload": "批量下载",
+    "table": {
+      "fileName": "文件名",
+      "size": "大小",
+      "downloadCount": "下载次数",
+      "actions": "操作"
+    },
+    "actions": {
+      "preview": "预览",
+      "download": "下载"
+    },
+    "mobileMeta": "• 下载 {count} 次",
+    "errors": {
+      "invalidCode": "验证码无效，请重试"
+    }
+  },
+  "transmit": {
+    "upload": {
+      "title": "上传文件",
+      "dragText": "将文件拖到此处，或",
+      "clickUpload": "点击上传",
+      "tip": "支持批量上传，总文件不超过 {size}。",
+      "progressTitle": "上传进度",
+      "selectedInfo": "已选择 {count} 个文件，总计 {size}",
+      "clearList": "清空列表",
+      "startUpload": "开始上传",
+      "errors": {
+        "fileSizeExceeded": "文件大小不能超过 {size} MB!",
+        "duplicateFile": "文件 \"{name}\" 已在上传列表中",
+        "totalSizeExceeded": "文件总大小不能超过 {size} MB!",
+        "uploadFailed": "文件上传失败: {message}",
+        "gettingParamsFailed": "获取上传参数失败: {message}",
+        "networkError": "获取上传参数失败: 网络错误或服务器无响应",
+        "uploading": "文件上传中，请勿重复提交！"
+      },
+      "success": "共计上传成功:{count}个文件"
+    },
+    "fileList": {
+      "title": "文件列表",
+      "searchPlaceholder": "搜索文件...",
+      "sortPlaceholder": "排序方式",
+      "sortByName": "按名称",
+      "sortBySize": "按大小",
+      "sortByTime": "按时间",
+      "breadcrumbs": {
+        "root": "根目录"
+      },
+      "selectedFiles": "共选择 {count} 个文件",
+      "batchDownload": "批量下载",
+      "table": {
+        "fileName": "文件名",
+        "size": "大小",
+        "type": "类型",
+        "createTime": "创建时间",
+        "actions": "操作"
+      },
+      "types": {
+        "folder": "文件夹",
+        "parentDirectory": "上级目录"
+      },
+      "actions": {
+        "preview": "预览",
+        "download": "下载"
+      },
+      "empty": "暂无文件",
+      "navigation": {
+        "backToParent": "返回上级目录"
+      },
+      "errors": {
+        "getFileListFailed": "获取文件列表失败: {message}"
+      }
+    },
+    "preview": {
+      "unsupported": "暂不支持此文件类型的预览",
+      "videoNotSupported": "您的浏览器不支持视频播放"
+    }
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Page not found",
+    "description": "您所查找的页面不存在或者已被移动。",
+    "backHome": "返回主页"
+  }
+}
